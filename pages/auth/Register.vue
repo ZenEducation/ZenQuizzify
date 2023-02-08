@@ -82,7 +82,7 @@ const reattemptSignup = () => {
     <NuxtLayout>
       <PremSectionFormScreen v-slot="{ cardClass }" bg="yellowRed" has-promo>
         <CardBox :class="cardClass" is-form @submit.prevent="handleSubmit">
-          <FormField
+          <!-- <FormField
             v-if="!userSubmitted"
             label="Username"
             help="Please enter your new username"
@@ -100,7 +100,7 @@ const reattemptSignup = () => {
             <FormControl
               v-model="form.signUpEmail"
               :icon-right="mdiEmail"
-              name="login"
+              name="email"
               type="email"
               placeholder="user@example.com"
               autocomplete="email"
@@ -133,7 +133,7 @@ const reattemptSignup = () => {
               placeholder="Submit OTP Code"
               autocomplete="new-OTPCode"
             />
-          </FormField>
+          </FormField> -->
 
           <template #footer>
             <BaseLevel mobile class="flex justify-between">
@@ -160,7 +160,7 @@ const reattemptSignup = () => {
               </div>
 
               <NuxtLink
-                to="/auth/login"
+                to="/auth/Login"
                 class="text-sm bg-gray-800 text-white p-3 rounded-md hover:bg-gray-600"
               >
                 Have an account? Sign In

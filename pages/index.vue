@@ -17,6 +17,7 @@ const form = reactive({
   remember: true,
 });
 const router = useRouter();
+router.push('/auth/login')
 const submit = () => {
   router.push("/dashboard");
 };
