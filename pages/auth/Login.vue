@@ -36,14 +36,14 @@ const handleSubmit = async () => {
     email: form.loginEmail,
     password: form.password,
   });
-  console.log(user_from_amplify);
+  console.log("user_from_amplify", user_from_amplify);
 
   // const response = await GraphqlAPIStore.createSuperAdmin({ input: {} });
   // console.log("response", response);
 
   if (user_from_amplify) {
-    return;
-    // router.push("/dashboard");
+    // return;
+    router.push("/dashboard");
   }
 };
 </script>
@@ -91,10 +91,10 @@ const handleSubmit = async () => {
                 />
               </BaseButtons>
               <NuxtLink
-                to="/pe/register"
-                class="text-sm bg-gray-800 text-white p-3 rounded-md hover:bg-gray-600"
+                to="/auth/Register"
+                class="text-sm bg-gray-800 text-white rounded-md hover:bg-gray-600"
               >
-                Done have an account? Sign Up
+                Already have an account? Sign Up
               </NuxtLink>
             </div>
           </template>

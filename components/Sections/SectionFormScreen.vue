@@ -72,7 +72,6 @@ const routes = {
             v-for="(routeLabel, index) in routes"
             :key="index"
             rounded-full
-            :to="{ name: index }"
             :active-soft="index === currentRouteName"
             :label="routeLabel"
             color="whiteDark"

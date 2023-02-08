@@ -26,7 +26,7 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
-    "@aws-amplify/ui-vue": "^3.0.4",
+    "@aws-amplify/ui-vue": "^3.1.6",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
     "@headlessui/vue": "^1.4.2",
@@ -36,7 +36,7 @@
     "@rollup/plugin-inject": "^5.0.3",
     "@rollup/plugin-terser": "^0.4.0",
     "@vueup/vue-quill": "^1.0.1",
-    "aws-amplify": "^5.0.5",
+    "aws-amplify": "^5.0.12",
     "chart.js": "^3.9.1",
     "fabric": "^5.3.0",
     "numeral": "^2.0.6",
@@ -45,6 +45,7 @@
     "readable-stream": "^4.2.0",
     "rollup": "^2.79.1",
     "uuid4": "^2.0.3",
+    "v-calendar": "^3.0.0-alpha.8",
     "vue": "^3.2.33",
     "vue-3-slider-component": "^0.1.0",
     "vue-advanced-chat": "^2.0.6"
