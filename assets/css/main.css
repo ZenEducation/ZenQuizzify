@@ -1,6 +1,7 @@
 @import "tailwind/_base.css";
 @import "tailwind/_components.css";
 @import "tailwind/_utilities.css";
+@import "font-awesome-pro.min.css";
 
 @import "_checkbox-radio-switch.css";
 @import "_progress.css";

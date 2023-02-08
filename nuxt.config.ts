@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         ],
       },
     ],
-    ["@vueuse/nuxt"],
+    ["@vueuse/nuxt"]
   ],
   //buildModules: ["@pinia/nuxt"],
   alias: {
