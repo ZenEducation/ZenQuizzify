@@ -17,6 +17,7 @@ import {
   mdiMessage,
   mdiFastForwardOutline,
   mdiBook,
+  mdiCalendar
 } from "@mdi/js";
 
 export default [
@@ -29,6 +30,11 @@ export default [
     to: "/dashboard",
     label: "UI Base",
     icon: mdiTelevisionGuide,
+  },
+  {
+    to: "/calendar",
+    label: "Calendar",
+    icon: mdiCalendar,
   },
   {
     to: "/pps/tablesListsView",
