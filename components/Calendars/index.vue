@@ -57,8 +57,6 @@ calendarStore.loadCalendars();
 const user = authStore.user
 // const { user } = storeToRefs(authStore);
 const { calendars } = storeToRefs(calendarStore);
-console.log('user', user);
-console.log('calendars', calendars);
 
 const addCalendar = () => {
   const calendar = {
@@ -69,12 +67,10 @@ const addCalendar = () => {
 }
 
 const updateCalendar = (calendar) => {
-  console.log(calendar);
   calendarStore.addCalendar(calendar)
 }
 
 const deleteCalendar = (calendar) => {
-  console.log(calendar);
   calendarStore.deleteCalendar(calendar)
 }
 </script>
