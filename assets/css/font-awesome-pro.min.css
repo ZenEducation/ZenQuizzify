@@ -6985,9 +6985,9 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url("/fonts/fontAwesomePro/fa-brands-400.woff2");
-    src: url("/fonts/fontAwesomePro/fa-brands-400.woff2") format("woff2"),
-        url("/fonts/fontAwesomePro/fa-brands-400.woff") format("woff");
+    src: url("./fonts/fontAwesomePro/fa-brands-400.woff2");
+    src: url("./fonts/fontAwesomePro/fa-brands-400.woff2") format("woff2"),
+        url("./fonts/fontAwesomePro/fa-brands-400.woff") format("woff");
 }
 .fab {
     font-family: "Font Awesome 5 Brands";
@@ -6997,9 +6997,9 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url("/fonts/fontAwesomePro/fa-duotone-900.woff2");
-    src: url("/fonts/fontAwesomePro/fa-duotone-900.woff2") format("woff2"),
-        url("/fonts/fontAwesomePro/fa-duotone-900.woff") format("woff");
+    src: url("./fonts/fontAwesomePro/fa-duotone-900.woff2");
+    src: url("./fonts/fontAwesomePro/fa-duotone-900.woff2") format("woff2"),
+        url("./fonts/fontAwesomePro/fa-duotone-900.woff") format("woff");
 }
 .fad {
     position: relative;
@@ -12496,9 +12496,9 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url("/fontAwesomePro/fa-light-300.woff2");
-    src: url("/fontAwesomePro/fa-light-300.woff2") format("woff2"),
-        url("/fontAwesomePro/fa-light-300.woff") format("woff");
+    src: url("./fonts/fontAwesomePro/fa-light-300.woff2");
+    src: url("./fonts/fontAwesomePro/fa-light-300.woff2") format("woff2"),
+        url("./fonts/fontAwesomePro/fa-light-300.woff") format("woff");
 }
 .fal {
     font-weight: 300;
@@ -12508,9 +12508,9 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/fontAwesomePro/fa-regular-400.woff2");
-    src: url("/fontAwesomePro/fa-regular-400.woff2") format("woff2"),
-        url("/fontAwesomePro/fa-regular-400.woff") format("woff");
+    src: url("./fonts/fontAwesomePro/fa-regular-400.woff2");
+    src: url("./fonts/fontAwesomePro/fa-regular-400.woff2") format("woff2"),
+        url("./fonts/fontAwesomePro/fa-regular-400.woff") format("woff");
 }
 .fal,
 .far {
@@ -12524,9 +12524,9 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url("/fontAwesomePro/fa-solid-900.woff2");
-    src: url("/fontAwesomePro/fa-solid-900.woff2") format("woff2"),
-        url("/fontAwesomePro/fa-solid-900.woff") format("woff");
+    src: url("./fonts/fontAwesomePro/fa-solid-900.woff2");
+    src: url("./fonts/fontAwesomePro/fa-solid-900.woff2") format("woff2"),
+        url("./fonts/fontAwesomePro/fa-solid-900.woff") format("woff");
 }
 .fa,
 .fas {

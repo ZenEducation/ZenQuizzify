@@ -7,7 +7,7 @@
             class="
               relative
               flex-auto0
-              w-[270px]
+              w-full
               -ml-[135px]
               translate-y-[50px]
               hidden

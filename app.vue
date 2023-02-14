@@ -3,6 +3,8 @@ import { useStyleStore } from "@/stores/style.js";
 import { darkModeKey, styleKey } from "@/configs/config";
 import { useMainStore } from "@/stores/main.js";
 import "@/assets/css/main.css";
+import "@/assets/css/font-awesome-pro.min.css";
+import "@/assets/css/fonts.css";
 
 const mainStore = useMainStore();
 const styleStore = useStyleStore();
