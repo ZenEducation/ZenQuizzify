@@ -251,7 +251,7 @@
                     }
                 }
                 a {
-                    color: $white;
+                    color: white;
                     font-size: 16px;
                     font-weight: 500;
                     padding: 10px 0;

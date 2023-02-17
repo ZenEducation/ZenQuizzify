@@ -16,6 +16,11 @@ export default defineNuxtConfig({
       isClient: true,
     },
   },
+  components: [
+    {
+      path: '~/components/frontend',
+    },
+  ],
 
   modules: [
     // ...
@@ -45,6 +50,13 @@ export default defineNuxtConfig({
       // global: {}
       "window.global": {},
     },
+    css: {
+            preprocessorOptions: {
+                scss: {
+                    additionalData: '@import "./assets/css/_variables.scss";'
+                },
+            },
+        },
   },
 
   postcss: {

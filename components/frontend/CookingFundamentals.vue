@@ -65,7 +65,7 @@
     }
     .dark-mode {
         .cooking-fundamentals-section {
-            background-color: $bg-dark-secondary;
+            background-color: #111111;
         }
     }
 </style>

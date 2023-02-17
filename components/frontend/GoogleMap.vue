@@ -13,7 +13,7 @@
     .vue-map-container {
         height: 500px;
         // res
-        @media #{$small-mobile}{
+        @media only screen and (max-width: 575px){
             height: 350px;
         }
     }
