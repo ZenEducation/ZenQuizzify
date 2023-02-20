@@ -665,7 +665,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/courses/grid-01"
+                    href="/frontend-template/courses/grid-01"
                     >Courses Grid 01</a
                   >
                 </li>
@@ -679,7 +679,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/courses/grid-02"
+                    href="/frontend-template/courses/grid-02"
                     >Courses Grid 02</a
                   >
                 </li>
@@ -693,7 +693,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/courses/grid-03"
+                    href="/frontend-template/courses/grid-03"
                     >Courses Grid 03</a
                   >
                 </li>
@@ -707,7 +707,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/membership-levels"
+                    href="/frontend-template/membership-levels"
                     >Membership Levels</a
                   >
                 </li>
