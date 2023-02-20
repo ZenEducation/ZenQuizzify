@@ -14,10 +14,10 @@
       <!-- Left side -->
       <div class="flex shrink-0 -space-x-3 -ml-px">
         <a class="block" href="#0">
-          <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-12.jpg" width="28" height="28" alt="User 12" />
+          <img class="rounded-full border-2 border-white box-content" src="/images/user-28-12.jpg" width="28" height="28" alt="User 12" />
         </a>
         <a class="block" href="#0">
-          <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-02.jpg" width="28" height="28" alt="User 02" />
+          <img class="rounded-full border-2 border-white box-content" src="/images/user-28-02.jpg" width="28" height="28" alt="User 02" />
         </a>
       </div>
       <!-- Right side -->

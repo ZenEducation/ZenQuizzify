@@ -7,7 +7,7 @@
       <!-- Content -->
       <div>
         <div class="text-sm">Dedicated form for a category of users that will perform actions.</div>
-        <img class="w-full mt-3" src="../../images/task-image-01.jpg" width="259" height="142" alt="Task 01" />
+        <img class="w-full mt-3" src="/images/task-image-01.jpg" width="259" height="142" alt="Task 01" />
       </div>
     </div>
     <!-- Footer -->
@@ -15,10 +15,10 @@
       <!-- Left side -->
       <div class="flex shrink-0 -space-x-3 -ml-px">
         <a class="block" href="#0">
-          <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-05.jpg" width="28" height="28" alt="User 05" />
+          <img class="rounded-full border-2 border-white box-content" src="/images/user-28-05.jpg" width="28" height="28" alt="User 05" />
         </a>
         <a class="block" href="#0">
-          <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-02.jpg" width="28" height="28" alt="User 02" />
+          <img class="rounded-full border-2 border-white box-content" src="/images/user-28-02.jpg" width="28" height="28" alt="User 02" />
         </a>
       </div>
       <!-- Right side -->

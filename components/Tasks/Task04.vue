@@ -10,7 +10,7 @@
       <!-- Left side -->
       <div class="flex shrink-0 -space-x-3 -ml-px">
         <a class="block" href="#0">
-          <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-06.jpg" width="28" height="28" alt="User 06" />
+          <img class="rounded-full border-2 border-white box-content" src="/images/user-28-06.jpg" width="28" height="28" alt="User 06" />
         </a>
       </div>
       <!-- Right side -->

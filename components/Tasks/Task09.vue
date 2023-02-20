@@ -6,7 +6,7 @@
       <div class="flex items-center mb-2">
         <div class="flex shrink-0 -space-x-3 -ml-px mr-2">
           <a class="block" href="#0">
-            <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-12.jpg" width="28" height="28" alt="User 12" />
+            <img class="rounded-full border-2 border-white box-content" src="/images/user-28-12.jpg" width="28" height="28" alt="User 12" />
           </a>
         </div>
         <div class="grow">
