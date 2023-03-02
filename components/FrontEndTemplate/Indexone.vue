@@ -47,7 +47,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .background {
   background-image: url("~@images/intro/intro1/bg-1.jpg");
   background-position: center;

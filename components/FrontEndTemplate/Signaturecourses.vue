@@ -6,7 +6,8 @@
         <template v-slot:headertwo> Current Signature Courses </template>
       </headers>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+   <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
       <gridtwo>
         <template v-slot:tag>$40</template>
         <template v-slot:date>JAN 15, 2020</template>
@@ -27,6 +28,7 @@
         >
       </gridtwo>
     </div>
+   </div>
 
     <div class="w-full flex justify-center items-center mt-14">
       <p

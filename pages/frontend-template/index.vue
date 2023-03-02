@@ -1,6 +1,5 @@
 <template>
   <div class="relative">
-    <heading />
     <indexone />
     <indextwo />
     <indexthree />
@@ -9,3 +8,9 @@
     <brandsession />
   </div>
 </template>
+
+<script setup>
+definePageMeta({
+  layout: "frontend",
+});
+</script>

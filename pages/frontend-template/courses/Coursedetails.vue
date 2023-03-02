@@ -6,6 +6,8 @@
   </div>
 </template>
 
-
-<style>
-</style>
+<script setup>
+definePageMeta({
+  layout: "frontend",
+});
+</script>

@@ -106,7 +106,7 @@ p {
 }
 
 .bg {
-  background-image: url(@/src/images/bg/become-a-teache-bg.jpg);
+  background-image: url(/images/bg/become-a-teache-bg.jpg);
 }
 
 input,

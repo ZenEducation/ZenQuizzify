@@ -63,6 +63,12 @@
   </div>
 </template>
 
+<script setup>
+definePageMeta({
+  layout: "frontend",
+});
+</script>
+
 <style scoped>
 .select {
   width: 300px;

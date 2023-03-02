@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full m-0 bg-[#111] py-16 flex justify-center items-center">
+  <div class="w-full m-0 bg-[#111] py-16 flex justify-center items-center relative">
     <div class="w-11/12 flex flex-col justify-center items-center">
       <div class="w-8/12 md:w-6/12 mb-[60px]">
         <headers>
@@ -17,6 +17,19 @@
       <Rates />
       <Tutors />
       <Senses />
+    </div>
+        <div
+      class="bottom-shape absolute -bottom-px left-0 w-full h-[70px] z-1"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        height="100"
+        class="w-full h-full"
+      >
+        <path d="M 0 0 L100 0 Q 50 200 0 0"></path>
+      </svg>
     </div>
   </div>
 </template>

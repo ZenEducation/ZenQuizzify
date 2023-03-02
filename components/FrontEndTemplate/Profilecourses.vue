@@ -19,7 +19,7 @@
     >
       <div class="">
         <div class="h-[229px] bg-gray-500">
-          <img :src="course.image" alt="" />
+          <img :src="course.image" alt="" class="w-full" />
         </div>
 
         <div class="p-10">
@@ -59,7 +59,7 @@ courses: [
     
         {
         id: 1,
-        image: "@/src/images/courses/370/course-1.jpg",
+        image: "/images/courses/370/course-1.jpg",
         price: '$' + 40.00,
         title: 'Learning to Write as a Professional Author',
         lessons: '20 Lessons',
@@ -68,7 +68,7 @@ courses: [
 
         {
         id: 2,
-        image: "@/src/images/courses/370/course-1.jpg",
+        image: "/images/courses/370/course-1.jpg",
         price: '$' + 0.00,
         title: 'Learning to Write as a Professional Author',
         lessons: '23 Lessons',
@@ -77,7 +77,7 @@ courses: [
 
         {
         id: 3,
-        image: "@/src/images/courses/370/course-1.jpg",
+        image: "/images/courses/370/course-1.jpg",
         price: '$' + 19.00,
         title: 'Learning to Write as a Professional Author',
         lessons: '16 Lessons',

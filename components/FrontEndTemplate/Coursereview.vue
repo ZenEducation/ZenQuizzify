@@ -50,7 +50,7 @@
       <div class="mb-5 md:mb-0 md:mr-5 w-full md:w-auto">
         <img
           class="rounded-full min-w-[96px] h-[96px]"
-          src="@/src/images/review-author/author1.jpeg"
+          src="/images/review-author/author1.jpeg"
           alt="author"
         />
       </div>

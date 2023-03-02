@@ -4,3 +4,8 @@
     <profiletwo />
   </div>
 </template>
+<script setup>
+definePageMeta({
+  layout: "frontend",
+});
+</script>

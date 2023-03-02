@@ -179,7 +179,7 @@ const { swiperOptions, testimonialItems } = reactive({
   testimonialItems: [
     {
       id: 1,
-      image: "/images/testimonial/70/testimonial-1.jpg",
+      image: "/images/testimonial/70/testimonial-1.jpeg",
       alt: "image",
       text: "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt for learners.",
       name: "Luvic Dubble",
@@ -187,7 +187,7 @@ const { swiperOptions, testimonialItems } = reactive({
     },
     {
       id: 2,
-      image: "/images/testimonial/70/testimonial-3.jpg",
+      image: "/images/testimonial/70/testimonial-3.jpeg",
       alt: "image",
       text: "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.",
       name: "Mina Hollace",

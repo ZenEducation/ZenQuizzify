@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full grid grid-cols-1 md:grid-cols-3 text-center">
+  <div class="grid md:grid-cols-3 lg:w-3/4 mx-auto gap-[30px]">
     <div class="rate">
       <h2 class="text-[48px] text-[#20AD96] font-extrabold">3.092 +</h2>
       <h4 class="title">Registered enrolls</h4>

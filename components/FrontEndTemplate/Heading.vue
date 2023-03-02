@@ -131,7 +131,7 @@
                           leading-relaxed block font-medium py-2
                           hover:text-heading
                         "
-                        href="/index-02"
+                        href="/frontend-template/home/courseportal"
                         >Course Portal</a
                       >
                     </li>
@@ -141,7 +141,7 @@
                           leading-relaxed block font-medium py-2
                           hover:text-heading
                         "
-                        href="/index-03"
+                        href="/frontend-template/home/distantlearning"
                         >Distant Learning<span
                           class="
                             inline-flex
@@ -170,7 +170,7 @@
                           leading-relaxed block font-medium py-2
                           hover:text-heading
                         "
-                        href="/index-04"
+                        href="/frontend-template/home/multimediapedagogy"
                         >Multimedia Pedagogy</a
                       >
                     </li>
@@ -180,7 +180,7 @@
                           leading-relaxed block font-medium py-2
                           hover:text-heading
                         "
-                        href="/index-05"
+                        href="/frontend-template/home/modernschooling"
                         >Modern Schooling</a
                       >
                     </li>
@@ -190,7 +190,7 @@
                           leading-relaxed block font-medium py-2
                           hover:text-heading
                         "
-                        href="/index-06"
+                        href="/frontend-template/home/remotetraining"
                         >Remote Training</a
                       >
                     </li>
@@ -456,35 +456,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/start-here"
-                    >Start Here</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/success-story"
-                    >Success Story</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/about-me"
+                    href="/frontend-template/about/aboutme"
                     >About me</a
                   >
                 </li>
@@ -498,7 +470,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/about-us-01"
+                    href="/frontend-template/about/aboutusone"
                     >About us 01</a
                   >
                 </li>
@@ -512,7 +484,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/about-us-02"
+                    href="/frontend-template/about/aboutustwo"
                     >About us 02</a
                   >
                 </li>
@@ -526,21 +498,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/about-us-03"
-                    >About us 03</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/contact-me"
+                    href="/frontend-template/about/contactme"
                     >Contact me</a
                   >
                 </li>
@@ -554,50 +512,8 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/contact-us"
+                    href="/frontend-template/about/contactus"
                     >Contact us</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/purchase-guide"
-                    >Purchase Guide</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/privacy-policy"
-                    >Privacy Policy</a
-                  >
-                </li>
-                <li role="none" class="relative">
-                  <a
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    href="/terms-of-service"
-                    >Terms of Service</a
                   >
                 </li>
               </ul>
@@ -665,7 +581,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/frontend-template/courses/grid-01"
+                    href="/frontend-template/courses/coursegridone"
                     >Courses Grid 01</a
                   >
                 </li>
@@ -679,7 +595,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/frontend-template/courses/grid-02"
+                    href="/frontend-template/courses/coursegridtwo"
                     >Courses Grid 02</a
                   >
                 </li>
@@ -693,11 +609,11 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/frontend-template/courses/grid-03"
+                    href="/frontend-template/courses/coursegridthree"
                     >Courses Grid 03</a
                   >
                 </li>
-                <li role="none" class="relative">
+                <!-- <li role="none" class="relative">
                   <a
                     class="
                       flex
@@ -738,7 +654,7 @@
                     href="/profile"
                     >Profile</a
                   >
-                </li>
+                </li> -->
               </ul>
             </li>
             <li
@@ -804,7 +720,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/events"
+                    href="/frontend-template/event/events"
                     >Event</a
                   >
                 </li>
@@ -818,7 +734,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/zoom-meetings"
+                    href="/frontend-template/event/zoommeetings"
                     >Zoom Meetings</a
                   >
                 </li>
@@ -887,11 +803,11 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/blogs/blog-grid"
+                    href="/frontend-template/blog/bloggrid"
                     >Blog Grid</a
                   >
                 </li>
-                <li role="none" class="relative">
+                <!-- <li role="none" class="relative">
                   <a
                     class="
                       flex
@@ -901,10 +817,10 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/blogs/blog-grid-sidebar"
+                    href="/frontend-template/event/events"
                     >Blog Grid Sidebar</a
                   >
-                </li>
+                </li> -->
                 <li role="none" class="relative">
                   <a
                     class="
@@ -915,11 +831,11 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/blogs/blog-classic"
+                    href="/frontend-template/blog/blogclassic"
                     >Blog Classic</a
                   >
                 </li>
-                <li role="none" class="relative">
+                <!-- <li role="none" class="relative">
                   <a
                     class="
                       flex
@@ -932,7 +848,7 @@
                     href="/blogs/blog-list"
                     >Blog List</a
                   >
-                </li>
+                </li> -->
               </ul>
             </li>
             <li

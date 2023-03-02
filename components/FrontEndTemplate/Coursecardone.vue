@@ -19,7 +19,7 @@
     >
       <div class="">
         <div class="h-[229px] bg-gray-500">
-          <img :src="course.image" alt="" />
+          <img :src="course.image" alt="" class="w-full" />
         </div>
 
         <div class="p-10">
@@ -58,7 +58,7 @@ return {
 courses: [
     {
         id: 1,
-        image: "src/images/courses/370/course-1.jpg",
+        image: "/images/courses/370/course-1.jpg",
         price: '$' + 40,
         title: 'Learning to Write as a Professional Author',
         lessons: '20 Lessons',

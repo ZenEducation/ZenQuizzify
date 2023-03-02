@@ -19,7 +19,7 @@
     >
       <div class="w-12/12">
         <div class="h-[229px] bg-gray-500">
-          <img :src="course.image" alt="" />
+          <img :src="course.image" alt="" class="w-full" />
         </div>
 
         <div class="relative p-8 pb-10 bg-black rounded-b-md">

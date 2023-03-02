@@ -4,7 +4,7 @@
       <div class="lg:mr-6 flex-1">
         <img
           class="w-12/12 md:10/12"
-          src="@/src/images/profile/profile.jpeg"
+          src="/images/profile/profile.jpeg"
           alt="profile"
         />
       </div>

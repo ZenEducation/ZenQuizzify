@@ -2,7 +2,7 @@
   <div class="flex justify-end lg:py-24">
     <div class="relative bg-black w-full lg:w-10/12 flex flex-col lg:flex-row">
       <div class="hidden lg:block lg:absolute lg:left-[-134px] lg:top-[60px]">
-        <img src="/images/others/teracher-quote-1.jpg" alt="image" />
+        <img src="/images/others/teracher-quote-1.jpeg" alt="image" />
       </div>
 
       <div id="space">

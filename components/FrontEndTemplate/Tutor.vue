@@ -1,13 +1,16 @@
 <template>
   <div class="flex flex-col md:flex-row justify-start p-[40px] rounded-md m-4">
-    <div>
+    <div style="flex: 1 0 auto; width: 70px">
       <img
-        src=""
+        :src="imageSrc"
         class="mb-4 sm:mr-4 rounded-full w-[70px] h-[70px] bg-gray-500"
         alt=""
       />
     </div>
-    <div class="mt-[20px] sm:mt-0">
+    <div
+      class="mt-[20px] sm:mt-0"
+      style="flex: 1 0 auto; width: calc(100% - 70px); padding-left: 30px"
+    >
       <p class="text-[18px] text-[#ddd] font-normal leading-[1.67] mb-[34px]">
         <slot name="comment"></slot>
       </p>
@@ -20,3 +23,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const props = defineProps(["imageSrc"]);
+</script>
