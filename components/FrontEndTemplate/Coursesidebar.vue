@@ -86,16 +86,7 @@
 
       <div class="w-full flex flex-col justify-center items-center">
         <button
-          class="
-            w-full
-            text-[14px] text-white
-            font-bold
-            px-12
-            py-4
-            bg-[#20ad96]
-            rounded-md
-            mt-12
-          "
+          class="w-full text-[14px] text-white font-bold px-12 py-4 bg-[#20ad96] rounded-md mt-12"
         >
           Enroll
         </button>
@@ -129,7 +120,7 @@ icon {
 
 span {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 </style>
