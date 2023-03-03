@@ -1,10 +1,11 @@
-import { API, graphqlOperation } from 'aws-amplify';
+import { API, DataStore, graphqlOperation } from 'aws-amplify';
 import { defineStore } from "pinia";
 import { getCalendar, listCalendars } from '~~/graphql/queries';
-import { createCalendar, updateCalendar, deleteCalendar } from '~~/graphql/mutations';
+// import { createCalendar, updateCalendar, deleteCalendar } from '~~/graphql/mutations';
+import { addCalendar, deleteCalendar, loadCalendars, updateCalendar } from '~~/API/index.js';
 
 export const state = () => ({
-  calendars: null,
+  calendars: [],
   loading: true
 });
 
@@ -13,11 +14,10 @@ const getters = {};
 export const actions = {
   async loadCalendars() {
     try {
-      const calendars = await API.graphql(graphqlOperation(listCalendars));
-      console.log('listCalendars', calendars);
-      const items = calendars.data.listCalendars.items;
-      this.calendars = items;
-      return items;
+      const calendars = await loadCalendars();
+      // const items = calendars.data.listCalendars.items;
+      this.calendars = calendars;
+      return calendars;
     } catch (error) {
       console.log(error);
       this.calendars = null;
@@ -30,9 +30,9 @@ export const actions = {
     };
     try {
       this.setLoading(true);
-      const result = await API.graphql(graphqlOperation(createCalendar, createCalendarInput));
-      console.log("in store", result);
-      this.calendars.push(result.data.createCalendar)
+      // const result = await API.graphql(graphqlOperation(createCalendar, createCalendarInput));
+      const result = await addCalendar(calendar)
+      this.calendars.push(result)
       this.setLoading(false);
     } catch (error) {
       this.setLoading(false);
@@ -41,28 +41,27 @@ export const actions = {
     
   },
   
-  async updateCalendar(calendar) {
-    const updateCalendarInput = {
-      input: calendar
-    };
+  // async updateCalendar(calendar) {
+  //   const updateCalendarInput = {
+  //     input: calendar
+  //   };
   
-    const result = await API.graphql(graphqlOperation(updateCalendar, updateCalendarInput));
-    console.log(result);
-  },
+  //   // const result = await API.graphql(graphqlOperation(updateCalendar, updateCalendarInput));
+  //   const result = updateCalendar()
+  // },
 
-  async deleteCalendar(calendar) {
-    if(!calendar.hasOwnProperty('id')) return false;
-    const deleteCalendarInput = {
-      input: {
-        id: calendar.id
-      }
-    };
+  async deleteCalendar(id) {
+    if(!id) return false;
+    // const deleteCalendarInput = {
+    //   input: {
+    //     id: calendar.id
+    //   }
+    // };
     try {
-      console.log("delete");
       this.setLoading(true);
-      const result = await API.graphql(graphqlOperation(deleteCalendar, deleteCalendarInput));
-      this.calendars = this.calendars.filter(calendar => calendar.id !== result.data.deleteCalendar.id)
-      console.log(result);
+      // const result = await API.graphql(graphqlOperation(deleteCalendar, deleteCalendarInput));
+      const result = await deleteCalendar(id)
+      this.calendars = this.calendars.filter(calendar => calendar.id !== result.id)
       this.setLoading(false);
     } catch (error) {
       this.setLoading(false);
