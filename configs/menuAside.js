@@ -18,7 +18,8 @@ import {
   mdiFastForwardOutline,
   mdiBook,
   mdiCalendar,
-  mdiCommentQuestion
+  mdiCommentQuestion,
+  mdiAbTesting
 } from "@mdi/js";
 
 export default [
@@ -163,5 +164,9 @@ export default [
     href: "",
     label: "About",
     icon: mdiHelpCircle,
+  },{
+    to: "/tests",
+    label: "Tests",
+    icon: mdiAbTesting,
   },
 ];
