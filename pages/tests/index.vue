@@ -1,9 +1,12 @@
 <script setup>
 import { useRouter } from "vue-router";
 const router = useRouter();
-let count = ref(5)
+let tests = ref([{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }])
 const toCreate = () => {
     router.push('tests/create')
+}
+const toTest = (id) => {
+    router.push(`tests/${id}`)
 }
 </script>
 
@@ -26,13 +29,14 @@ const toCreate = () => {
 
                     </div>
                     <button class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600" @click="toCreate">
-                    Manage</button>
+                        Manage</button>
                     <button class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600" @click="toCreate">Create
                         Test</button>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg" v-for='number in count'>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer" v-for='test in tests'
+                    @click="toTest(test.id)">
                     <img class="w-full"
                         src="https://asset-cdn.learnyst.com/assets/schools/43318/courses/88871/NEET_txipgi.png"
                         alt="Not found">
