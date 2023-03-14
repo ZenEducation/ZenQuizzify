@@ -26,13 +26,13 @@
     </div>
     <div>
       <div class="flex gap-4 mb-4" v-for="calendar in calendars" :key="calendar.id">
-        {{ calendar.date }}
+        {{ new Date(calendar.date).toISOString() }}
         <BaseButton
           color="danger"
           small
           label="Delete"
           :outline="true"
-          @click.prevent="()=>deleteCalendar(calendar)"
+          @click.prevent="()=>deleteCalendar(calendar.id)"
         />
       </div>
     </div>
@@ -41,6 +41,7 @@
 
 <script setup>
 import { storeToRefs } from 'pinia'
+import { useRouter } from "vue-router";
 import { useStyleStore } from "@/stores/style.js";
 import { useCalendarStore } from "@/stores/calendarStore.js";
 import { useAuthStore } from "@/stores/authStore";
@@ -49,32 +50,34 @@ import BaseButton from "@/components/Buttons/BaseButton.vue";
 const styleStore = useStyleStore();
 const authStore = useAuthStore();
 const calendarStore = useCalendarStore();
-let  date = new Date();
+let date = new Date();
 const  timezone = '';
+const router = useRouter();
 
 calendarStore.loadCalendars();
 
 const user = authStore.user
 // const { user } = storeToRefs(authStore);
+
+if(user === null) {
+  router.push('/auth/login')
+}
+
 const { calendars } = storeToRefs(calendarStore);
-console.log('user', user);
-console.log('calendars', calendars);
 
 const addCalendar = () => {
   const calendar = {
-    date,
+    date: date.toISOString(),
     owner: user.username
   }
   calendarStore.addCalendar(calendar)
 }
 
 const updateCalendar = (calendar) => {
-  console.log(calendar);
   calendarStore.addCalendar(calendar)
 }
 
-const deleteCalendar = (calendar) => {
-  console.log(calendar);
-  calendarStore.deleteCalendar(calendar)
+const deleteCalendar = (id) => {
+  calendarStore.deleteCalendar(id)
 }
 </script>

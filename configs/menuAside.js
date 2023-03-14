@@ -17,7 +17,9 @@ import {
   mdiMessage,
   mdiFastForwardOutline,
   mdiBook,
-  mdiCalendar
+  mdiCalendar,
+  mdiCommentQuestion,
+  mdiAbTesting
 } from "@mdi/js";
 
 export default [
@@ -35,6 +37,11 @@ export default [
     to: "/calendar",
     label: "Calendar",
     icon: mdiCalendar,
+  },
+  {
+    to: "/quizzify",
+    label: "Quizzify",
+    icon: mdiCommentQuestion,
   },
   {
     to: "/pps/tablesListsView",
@@ -157,5 +164,9 @@ export default [
     href: "",
     label: "About",
     icon: mdiHelpCircle,
+  },{
+    to: "/tests",
+    label: "Tests",
+    icon: mdiAbTesting,
   },
 ];
