@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         ],
       },
     ],
-    ["@vueuse/nuxt"],
+    ["@vueuse/nuxt"]
   ],
   //buildModules: ["@pinia/nuxt"],
   alias: {
@@ -38,7 +38,7 @@ export default defineNuxtConfig({
   },
 
   //
-  plugins: [{ src: "@/plugins/amplify.ts", mode: "client" },{ src: "@/plugins/v-calendar.ts", mode: "client" }],
+  plugins: [{ src: "@/plugins/amplify.ts", mode: "client" }, { src: "@/plugins/v-calendar.ts", mode: "client" }],
   vite: {
     // temp-fix for dev, it breaks build for now (see: https://github.com/nuxt/framework/issues/4916)
     define: {
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
   },
 
   build: {},
-
+  devServerHandlers: [],
   // target: "static"
 });
 

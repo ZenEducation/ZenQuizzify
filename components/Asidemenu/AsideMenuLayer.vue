@@ -1,6 +1,6 @@
 <script setup>
 import { useStyleStore } from "@/stores/style.js";
-import PremAsideMenuList from "@/components/Asidemenu/AsideMenuList.vue";
+import PremAsideMenuList from "@/components/Asidemenu/AsideMenuListPdf.vue";
 
 defineProps({
   menu: {
@@ -54,12 +54,14 @@ const menuClick = (event, item) => {
         "
         class="flex-1 overflow-y-auto overflow-x-hidden dark:bg-gray-900"
       >
+      
         <PremAsideMenuList
           :menu="menu"
           :is-compact="isCompact"
           :active-secondary-menu-key="activeSecondaryMenuKey"
           @menu-click="menuClick"
         />
+
       </div>
 
       <slot name="footer" />

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLayout name="zen">
+    <NuxtLayout name="newlayout">
       <PdfView/>
     </NuxtLayout>
   </div>
@@ -8,4 +8,5 @@
 
 <script setup>
 import PdfView from "@/components/PdfView/PdfView.vue";
+
 </script>
