@@ -9,9 +9,9 @@ import {
   mdiChevronLeftCircleOutline,
 } from "@mdi/js";
 import BaseIcon from "@/components/Display/BaseIcon.vue";
-import OverlayLayer from "@/components/WBFabric/AsideMenu/OverlayLayer.vue";
-import PremAsideMenuLayer from "@/components/WBFabric/Asidemenu/AsideMenuLayer.vue";
-import PremAsideMenuItem from "@/components/WBFabric/Asidemenu/AsideMenuItem.vue";
+import OverlayLayer from "@/components/Asidemenu/OverlayLayer.vue";
+import PremAsideMenuLayer from "@/components/Asidemenu/AsideMenuLayer.vue";
+import PremAsideMenuItem from "@/components/Asidemenu/AsideMenuItemPdf.vue";
 
 defineProps({
   menu: {
@@ -24,7 +24,7 @@ const emit = defineEmits(["menu-click"]);
 
 const layoutStore = useLayoutStore();
 const styleStore = useStyleStore();
-const isPrimaryMenuCompact = ref(true);
+const isPrimaryMenuCompact = ref(false);
 
 const secondaryMenuItem = ref(null);
 
@@ -34,17 +34,19 @@ const overlayLayerDisplayType = computed(() => {
   }
 
   if (!isPrimaryMenuCompact.value) {
-    return "hidden lg:flex";
+    return "hidden";
   }
 
   return "hidden";
 });
 
 const closeSecondaryMenu = () => {
+  console.log("Close Secondary Menu  ")
   secondaryMenuItem.value = null;
 };
 
 const menuClickPrimaryMenu = (event, item) => {
+  console.log("Menu Click Primary Menu",item)
   emit("menu-click", event, item);
 
   if (item.menu) {
@@ -62,9 +64,11 @@ const menuClickPrimaryMenu = (event, item) => {
 
 const menuClickSecondaryMenu = (event, item) => {
   emit("menu-click", event, item);
+  console.log("menu-click secondary menu");
 };
 
 const overlayClick = () => {
+  console.log("overlay-click");
   if (secondaryMenuItem.value) {
     closeSecondaryMenu();
   } else if (!isPrimaryMenuCompact.value) {
@@ -141,6 +145,7 @@ const expandCollapseItem = computed(() => ({
     <div class="flex-1">
       {{ secondaryMenuItem.label }}
     </div>
+
     <BaseIcon
       :path="mdiClose"
       class="cursor-pointer"
